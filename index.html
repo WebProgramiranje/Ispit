@@ -13,11 +13,6 @@
 </head>
 
 <body>
-  <script>
-    if (Date.parse((await fetch("")).headers.get("date")) < Date.parse('Mon, 25 Mar 2024 09:00:00 GMT')) {
-      document.body.innerHTML = "";
-    }
-  </script>
   <div class="container mt-5 d-flex p-2 flex-wrap">
     <div class="card" style="width: calc(100% - 20px); margin: 10px;">
       <div class="card-body text-center">
