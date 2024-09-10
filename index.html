@@ -12,7 +12,7 @@
 <body>
   <script>
     fetch("").then(p => {
-      if (Date.parse(p.headers.get("Date")) < Date.parse("2024-09-10T09:00:00.000Z")) {
+      if (Date.parse(p.headers.get("Date")) < Date.parse("2024-09-09T09:00:00.000Z")) {
           document.body.innerHTML = `<div class='container text-center mt-5'>
             <h1>Još je rano za preuzimanje blanketa.</h1>
           </div>`;
